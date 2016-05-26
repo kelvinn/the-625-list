@@ -4,9 +4,6 @@ import csv
 from microsofttranslator import Translator
 
 
-
-
-
 def read_word_list():
     with open('625-words-fluent-forever.csv', 'rb') as csvfile:
         wordreader = csv.reader(csvfile, delimiter=',', quotechar='"')
